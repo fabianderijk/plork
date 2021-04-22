@@ -1,0 +1,4 @@
+test:
+  version: 1.x
+  js:
+    test_module.js: {}

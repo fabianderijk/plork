@@ -1,0 +1,10 @@
+<?php
+
+/**
+ * @file
+ * Contains test_module.module.
+ */
+
+function test_module_update_9001() {
+  module_set_weight('test_modulee', 1000);
+}

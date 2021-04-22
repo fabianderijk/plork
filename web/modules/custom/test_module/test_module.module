@@ -1,0 +1,34 @@
+<?php
+
+/**
+ * @file
+ * Contains test_module.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function test_module_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the test_module module.
+    case 'help.page.test_module':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_form_alter().
+ */
+function test_module_form_alter(&$form, \Drupal\Core\Form\FormStateInterface $form_state, $form_id) {
+  $form['test_item'] = [
+    '#markup' => '<div class="tour-clicker" id="toolbar-tab-tour">Tour click divje</div>',
+  ];
+  $form['#attached']['library'][] = 'test_module/test';
+}
