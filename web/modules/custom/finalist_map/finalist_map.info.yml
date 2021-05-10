@@ -1,0 +1,6 @@
+name: Finalist - Map
+type: module
+description: Maps usages
+package: Finalist
+core: 8.x
+core_version_requirement: ^8 || ^9

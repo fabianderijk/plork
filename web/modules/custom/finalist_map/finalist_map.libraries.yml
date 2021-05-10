@@ -1,0 +1,12 @@
+osm_map:
+  version: VERSION
+  js:
+    https://unpkg.com/leaflet@1.7.1/dist/leaflet.js: { type: external, minified: true, attributes: { integrity: sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA==, crossorigin: "" } }
+    js/dist/finalistMapOsmIndex.min.js: {}
+  css:
+    base:
+      https://unpkg.com/leaflet@1.7.1/dist/leaflet.css: { type: external, attributes: { integrity: sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A==, crossorigin: "" }, minified: true }
+      //cdnjs.cloudflare.com/ajax/libs/leaflet.draw/1.0.4/leaflet.draw.css: { type: external }
+      css/finalist-map.css: { }
+  dependencies:
+    - core/drupalSettings

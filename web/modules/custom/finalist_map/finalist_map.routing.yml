@@ -1,0 +1,15 @@
+finalist_map.osm:
+  path: '/finalist-map/osm'
+  defaults:
+    _title: 'OSM'
+    _controller: '\Drupal\finalist_map\Controller\FinalistMapController::build'
+  requirements:
+    _permission: 'access content'
+
+finalist_map.leaflet:
+  path: '/finalist-map/leaflet'
+  defaults:
+    _title: 'Leaflet'
+    _controller: '\Drupal\finalist_map\Controller\FinalistMapController::build'
+  requirements:
+    _permission: 'access content'

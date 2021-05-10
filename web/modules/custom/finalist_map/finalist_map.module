@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Finalist - Map module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function finalist_map_theme($existing, $type, $theme, $path) {
+  return [
+    'finalist_map_osm' => [
+      'variables' => [],
+    ],
+  ];
+}
