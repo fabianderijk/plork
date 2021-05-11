@@ -5,7 +5,7 @@ const config = {
     finalistMapOsmIndex: ["./js/src/finalistMapOsmIndex.jsx"]
   },
   devtool: false,
-  mode: 'development',
+  mode: 'production',
   output: {
     path: path.resolve(__dirname, "js/dist"),
     filename: '[name].min.js'
