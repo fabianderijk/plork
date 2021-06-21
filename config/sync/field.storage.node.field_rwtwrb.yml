@@ -1,0 +1,20 @@
+uuid: 0f61ed86-5941-4f17-a604-0be2ddf0e2c2
+langcode: nl
+status: true
+dependencies:
+  module:
+    - geofield
+    - node
+id: node.field_rwtwrb
+field_name: field_rwtwrb
+entity_type: node
+type: geofield
+settings:
+  backend: geofield_backend_default
+module: geofield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

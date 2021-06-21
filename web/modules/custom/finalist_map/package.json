@@ -37,6 +37,7 @@
     "react-html-parser": "*",
     "style-loader": "*",
     "webpack": "*",
+    "webpack-bundle-analyzer": "^4.4.1",
     "webpack-cli": "*",
     "webpack-combine-loaders": "*",
     "webpack-dev-server": "*"

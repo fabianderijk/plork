@@ -1,0 +1,6 @@
+client_id: 6733c799-4ebd-44d8-bbdc-9cf54358164d
+client_secret: 92f8a243-11d6-49c9-8416-7d2232ad8e61
+tenant_id: 29f638f2-0f6c-4b33-be3a-9092169c7b77
+redirect_login: 'https://drupal9.test/'
+redirect_callback: 'https://drupal9.test/o365/callback'
+auth_scopes: 'offline_access openid User.Read User.ReadAll'

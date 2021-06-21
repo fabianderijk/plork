@@ -1,0 +1,22 @@
+uuid: 450e01aa-113f-4c3a-b6cd-bcc53b56005a
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_weflivhb
+    - node.type.page
+  module:
+    - geofield
+id: node.page.field_weflivhb
+field_name: field_weflivhb
+entity_type: node
+bundle: page
+label: weflivhb
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

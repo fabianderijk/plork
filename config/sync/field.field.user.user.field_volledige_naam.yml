@@ -1,0 +1,20 @@
+uuid: 0d21c49f-5039-44b1-b917-372bf396175e
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.user.field_volledige_naam
+  module:
+    - user
+id: user.user.field_volledige_naam
+field_name: field_volledige_naam
+entity_type: user
+bundle: user
+label: 'Volledige naam'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

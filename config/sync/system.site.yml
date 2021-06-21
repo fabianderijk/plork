@@ -1,0 +1,14 @@
+uuid: 0a9ec51f-974f-4504-af87-84a4b54ffc23
+name: 'Drupal 9 test site'
+mail: admin@example.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: nl
+default_langcode: nl
+_core:
+  default_config_hash: yTxtFqBHnEWxQswuWvkjE8mKw2t8oKuCL1q8KnfHuGE

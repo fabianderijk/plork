@@ -1,0 +1,20 @@
+uuid: c28deae7-98ca-415e-ba37-a3e10e19c2e5
+langcode: nl
+status: true
+dependencies:
+  module:
+    - geofield
+    - node
+id: node.field_wefvefv
+field_name: field_wefvefv
+entity_type: node
+type: geofield
+settings:
+  backend: geofield_backend_default
+module: geofield
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

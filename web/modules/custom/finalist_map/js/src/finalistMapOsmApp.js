@@ -46,12 +46,12 @@ function FinalistMapOsmApp() {
             draw={{
               polyline: false,
               marker: false,
-              circlemarker: false
+              circlemarker: false,
             }}
           />
         </FeatureGroup>
       </MapContainer>
-      <textarea rows={15} cols={100} value={value} readOnly />
+      <textarea rows={15} cols={100} value={value} readOnly/>
     </>
   );
 }

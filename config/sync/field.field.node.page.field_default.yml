@@ -1,0 +1,22 @@
+uuid: 6d58d9c2-d508-4ac3-98e3-dab284cbaafe
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_default
+    - node.type.page
+  module:
+    - geofield
+id: node.page.field_default
+field_name: field_default
+entity_type: node
+bundle: page
+label: default
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  backend: geofield_backend_default
+field_type: geofield

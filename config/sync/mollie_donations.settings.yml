@@ -1,0 +1,14 @@
+mollie_live_payments: 0
+mollie_live_api_key: live_k9tnVy6zGtRDBuwRE2rNTMKyWQ9CbC
+mollie_test_api_key: test_sZbGXYMWiaDaFNJAB8LUiGBxisNshM
+donation_amounts: '5,00; 10,00; 15,00; 25,00; 50,00'
+donation_page_title: Donations
+donation_page_text:
+  value: "<p>Test text</p>\r\n"
+  format: basic_html
+donation_thank_you: Succes!
+donation_went_wrong: Failed!
+activate_donations: 1
+donation_currency: EUR
+donation_path: donaties
+donation_currency_symbol: €

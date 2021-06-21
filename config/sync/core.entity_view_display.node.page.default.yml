@@ -1,0 +1,82 @@
+uuid: 5feecd98-1081-4ce5-ad7b-1e97a4dac3ce
+langcode: nl
+status: true
+dependencies:
+  config:
+    - field.field.node.page.body
+    - field.field.node.page.field_default
+    - field.field.node.page.field_geofield
+    - field.field.node.page.field_rwtwrb
+    - field.field.node.page.field_weflivhb
+    - field.field.node.page.field_wefvefv
+    - node.type.page
+  module:
+    - geofield
+    - text
+    - user
+_core:
+  default_config_hash: g1S3_GLaxq4l3I9RIca5Mlz02MxI2KmOquZpHw59akM
+id: node.page.default
+targetEntityType: node
+bundle: page
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_default:
+    weight: 103
+    label: above
+    settings:
+      output_format: wkt
+      output_escape: true
+    third_party_settings: {  }
+    type: geofield_default
+    region: content
+  field_geofield:
+    weight: 102
+    label: above
+    settings:
+      output_format: wkt
+    third_party_settings: {  }
+    type: geofield_latlon
+    region: content
+  field_rwtwrb:
+    weight: 105
+    label: above
+    settings:
+      output_format: wkt
+      output_escape: true
+    third_party_settings: {  }
+    type: geofield_default
+    region: content
+  field_weflivhb:
+    weight: 104
+    label: above
+    settings:
+      output_format: wkt
+      output_escape: true
+    third_party_settings: {  }
+    type: geofield_default
+    region: content
+  field_wefvefv:
+    weight: 106
+    label: above
+    settings:
+      output_format: wkt
+      output_escape: true
+    third_party_settings: {  }
+    type: geofield_default
+    region: content
+  links:
+    weight: 101
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true
+  search_api_excerpt: true

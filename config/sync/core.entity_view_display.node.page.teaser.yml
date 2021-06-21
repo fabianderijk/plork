@@ -1,0 +1,42 @@
+uuid: 45d4bc1d-67bd-4cc4-a067-152df1ff315d
+langcode: nl
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.page.body
+    - field.field.node.page.field_default
+    - field.field.node.page.field_geofield
+    - field.field.node.page.field_rwtwrb
+    - field.field.node.page.field_weflivhb
+    - field.field.node.page.field_wefvefv
+    - node.type.page
+  module:
+    - text
+    - user
+_core:
+  default_config_hash: cSv5lDnbIgDug475Hdz3woED2XMqYv3awI-J9u1JLbY
+id: node.page.teaser
+targetEntityType: node
+bundle: page
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 100
+    region: content
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+  links:
+    weight: 101
+    region: content
+hidden:
+  field_default: true
+  field_geofield: true
+  field_rwtwrb: true
+  field_weflivhb: true
+  field_wefvefv: true
+  langcode: true
+  search_api_excerpt: true

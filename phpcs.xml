@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ruleset name="default">
+  <description>Default PHP CodeSniffer configuration.</description>
+  <rule ref="phpcs-ruleset.xml"/>
+    <file>./</file>
+  <arg name="extensions" value="php,inc,module,install,info,test,profile,theme,js,twig,theme"/>
+  <arg name="report" value="full"/>
+  <arg value="p"/>
+</ruleset>
